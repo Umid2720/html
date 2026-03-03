@@ -14,5 +14,21 @@
 
 <foo> Hello, World! </foo>
 
-<!-- deb yozamiz. Ushbu faylda yozilganlarni saqlab, uning ustiga bossangiz, u brauzerda ochiladi: -->
+<!-- deb yozamiz. Ushbu faylda yozilganlarni saqlab, uning ustiga bossangiz, u brauzerda ochiladi: 
+    Yuqoridagi misolda biz teg haqida tushuncha olish uchun misol tariqasida uni foo deb nomladik. 
+    Endi, aniq bir vazifani bajaradigan eng asosiy teglarni ko’rib chiqamiz:
+-->
 
+<foo> Hello, </foo> <strong> World! </strong>
+
+<!-- <em></em> (ilgari <i> bo’lgan) tegi matnni o'ng tomonga yotgan holda yozadi: -->
+<em> Hello, </em> <strong> World! </strong>
+
+Teglarni birgalikda ichma-ich ham yozish mumkin. Birinchi ochilgan teg oxirida
+yopiladi:
+<strong>
+  <em> Hello, World! </em>
+</strong>
+
+Shunda brauzerda matnimiz ham qalin, ham o'ng tomonga yotgan shaklda ko’rinadi.
+Sababi, matnimiz har ikkala tegning ichida joylashgan:
